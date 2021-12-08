@@ -2,6 +2,9 @@ import React from 'react';
 
 import { Link } from 'react-router-dom';
 
+import { connect } from 'react-redux';
+import { deleteFavorites } from '../actions/favoritesActions';
+
 
 const FavoriteMovieList = (props) => {
     const favorites = [];
