@@ -13,3 +13,7 @@ export const addFavorite = (movie)=> {
 export const removeFavorite = (id)=> {
     return({type: REMOVE_FAVORITE, payload:id});
 }
+
+export const deleteFavorites=(movie)=>{
+    return({type: DELETE_FAVORITES, payload: movie})
+}
